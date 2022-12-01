@@ -711,16 +711,52 @@ footer {
 
 
 
+table, th, td {
+    background-color: rgb(236, 232, 232);
+    padding: 20px;
+    margin: 30px;
+  }
 
+.mainh2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 26px;
+}
 
+.info_site {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.info_site p {
+    font-size: 15px;
+    text-align: center;
+    width: 80%;
+}
 
+.livraison {
+    height: 70px;
+    width: 30%;
+    padding-left: 65px;
+}
 
+.payer {
+    height: 70px;
+    width: 30%;
+    padding-left: 85px;
+}
 
+.casse {
+    height: 130px;
+    width: 40%;
+    padding-left: 100px;
+}
 
-
-
-
+#addToCard{
+   width: auto;
+}
 
 
 
