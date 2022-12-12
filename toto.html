@@ -20,93 +20,80 @@
         <link href="https://fonts.googleapis.com/css2?family=Julee&family=Poppins:wght@200;300&family=Roboto:wght@300&family=Work+Sans:wght@400;700&display=swap" rel="stylesheet">
         <meta name="description" content="" />
     
-        <link rel="apple-touch-icon" type="image/png" href="img/Logo BAR CONNECT v2.png" />
-        <meta name="apple-mobile-web-app-title" content="CodePen">
-      
-        <link rel="shortcut icon" type="image/x-icon" href="img/Logo BAR CONNECT v2.png" />
-      
-        <link rel="mask-icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg" color="#111" />
-      
-        <title>Jack Daniel Honey</title>
+        
+        <title>Vodka</title>
       </head>
 <body>
     <header>
         <div class="barre">
-            <div class="nav1">
-                <ul class="one">
-                  <li><a href="../../acceuil.html">Accueil</a></li>
-                  <li><a href="../../catalogue.html">Catalogue</a></li>
-                  <li><a href="../../coctail.html">Packs Cocktails</a></li>
-                  <li><a href="#contact">Contact</a></li>
-                </ul>
-              </div>
+          <div class="nav1">
+            <ul class="one">
+              <li><a href="../../acceuil.html">Accueil</a></li>
+              <li><a href="../../catalogue.html">Catalogue</a></li>
+              <li><a href="../../coctail.html">Packs Cocktails</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
         </div>
         <div class="background-black">
-          <div>
-            <div>
-              <p class="slogan1">L'organisation, c'est nous</p>
-            </div>
-            <div class="titles">
-              <img src="../../img/Logo BAR CONNECT v2.png" alt="" class="logo">
-              
-            </div>
-            <div>
-              <p class="slogan2"><br> Passez une bonne soirée,<br> c'est vous.</p>
-            </div>
+          <div class="titles">
+            <h1 class="title_bar">Bar connect</h1>
+            <p class="subtitle">Restez chez vous, on s'occupe de tout</p>
           </div>
           <div class="commande">
-            <a href="./alcools/panier.html" class="panier">
-              <div>
-                <i class="fa-solid fa-bag-shopping bag"></i>
-              </div>
-            </a>
+            <div>
+              <i class="fa-solid fa-bag-shopping bag"></i>
+            </div>
+            <span>panier</span>
           </div>
         </div>
       </header>
-      <h2 class="commande_panier">Jack Daniel Honey</h2>
+      <h2 class="commande_panier">Vodka poliakov 70cl</h2>
       <section class="items">
         
         <div class="img_vodka">
-            <img src="../../img/honeyjk.webp" alt="" class="lique">
+            <img src="../../img/poliakov1.jpg" alt="" class="img_vodka1">
         </div>
         <div class="all_items">
            
-            <div class="item1">
-                <p id="price">le Prix du produit: 15€</p>
+            <div>
+                <p id="price">Prix: 22€</p>
             </div>
-            <div class="item2">
-                <p>Plateau charcuterie français<br><br></p>
+            <div>
+                <p>Poliakov de 70cl à 40%<br><br></p>
             </div>
             <div class="cart__item__content__settings">
                 <div class="cart__item__content__settings__quantity">
-                  <p>Quantité : </p>
-                  <input type="number" class="itemQuantity" name="itemQuantity" min="0" max="100" value="0">
+                  <p>Qantité : </p>
+                  <input type="number" class="itemQuantity" name="itemQuantity" min="0" max="100" value="0" id="qt">
                 </div>
             </div>
         </div>
      
         
-            
+        <div id="cart">
       </section>
       <div class="item__content__addButton">
         <button id="addToCard" class="btn btn-outline-warning">Ajouter au panier</button>
       </div>
+
+  
       
       <section>
         <div class="div_principale">
           <div>
             <h4>Menu</h4>
             <ul>
-              <li><a href="../../alcools/rhum.html">Rhum</a></li>
-              <li><a href="../../alcools/vodka.html">Vodka</a></li>
-              <li><a href="../../alcools/soft.html">soft</a></li>
-              <li><a href="../../alcools/whiskey.html">whiskey</a></li>
-              <li><a href="../../alcools/vin.html">Vin</a></li>
-              <li><a href="../../alcools/liqueur.html">Liqueurs et spéritieux</a></li>
-              <li><a href="../../alcools/acc.html">Accessoires</a></li>
-              <li><a href="../../alcools/plateau.html">Plateau</a></li>
-              <li><a href="../../coctail.html">Nos cocktails</a></li>
-              <li><a href="../../alcools/snack.html">Snacks</a></li>
+              <li><a href="./alcools/rhum.html">Rhum</a></li>
+              <li><a href="./alcools/vodka.html">Vodka</a></li>
+              <li><a href="./alcools/soft.html">soft</a></li>
+              <li><a href="./alcools/whiskey.html">whiskey</a></li>
+              <li><a href="./alcools/vin.html">Vin</a></li>
+              <li><a href="./alcools/liqueur.html">Liqueurs et spéritieux</a></li>
+              <li><a href="./alcools/acc.html">Accessoires</a></li>
+              <li><a href="./alcools/plateau.html">Plateau</a></li>
+              <li><a href="./coctail.html">Nos cocktails</a></li>
+              <li><a href="./alcools/snack.html">Snacks</a></li>
             </ul>
           </div>
           <div>
@@ -117,7 +104,7 @@
             </address>
           </div>
           <div>
-            <h4>Horaires et commandes</h4>
+            <h4>Horraires et commandes</h4>
             <p class="ligne_h">Ouvert 7/7 de 17H à 4h<br>Livraison de votre apéro à Nice
             <br>Commandez et payez directement<br> sur notre site web, ou par téléphone<br> au 07.82.17.32.30 
           pour tout paiement en espèce</p>
@@ -141,5 +128,6 @@
       <footer>
             <p>&copy; 2022, Bar connect</p>
       </footer>
+      <script src="./script.js"></script>
 </body>
 </html>

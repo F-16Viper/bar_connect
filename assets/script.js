@@ -38,6 +38,23 @@ function showProduct () {
 	deleteProduct();
 }
 
+function addProduct () {
+
+	buttonConfirm.addEventListener("click", () => {
+		alert("btn");
+        
+		let product;
+		product = {
+			quantity: quantity.value,
+			prix : prix.value,
+		}
+		console.log(product); 
+		products.push(product);
+	
+	});
+}
+
+
 // Partie supprimer products
 function deleteProduct() {
 	// On récupère tout les boutons avec la classe .delete  EXPECTED RESUL : [nodeListe.deleteButton, nodeListe.deleteButton, nodeListe.deleteButton ]
@@ -64,5 +81,5 @@ function deleteProduct() {
 	});
 }
 
-
+addProduct();
 showProduct();
