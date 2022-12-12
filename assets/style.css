@@ -160,6 +160,29 @@ li :hover  {
     color: #5A189A;
 }
 
+.position_pg1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 150px;
+}
+
+.imgh_position {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 140px;
+}
+
+.title_histoire {
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+
 .bag {
     font-size: 40px;
     color: #5A189A;
